@@ -32,22 +32,22 @@ fn main() {
     loop {
         if choice == "1" {
             println!("Addition");
-            result = number1 + number2;
+            let result = number1 + number2;
             println!("The addition is {}", result);
             break;
         } else if choice == "2" {
             println!("Subtraction");
-            result = number1 - number2;
+            let result = number1 - number2;
             println!("The subtraction is {}", result);
             break;
         } else if choice == "3" {
             println!("Multiplication");
-            result = number1 * number2;
+            let result = number1 * number2;
             println!("The Multiplication is {}", result);
             break;
         } else if choice == "4" {
             println!("Division");
-            result = number1 / number2;
+            let result = number1 / number2;
             println!("The Division is {}", result);
             break;
         } else if choice == "5" {
