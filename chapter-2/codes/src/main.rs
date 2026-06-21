@@ -29,7 +29,6 @@ fn main() {
         .expect("Failed to read the choice");
     let choice = choice.trim();
 
-    let mut result: i32 = 0;
     loop {
         if choice == "1" {
             println!("Addition");
