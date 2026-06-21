@@ -1,6 +1,6 @@
 [workspace]
 resolver = "2"
 
-members = ["chapter-2/codes",
+members = ["chapter-2/codes", "guessing_game_v2",
     "hello_world"
 ]
